@@ -1,0 +1,8 @@
+com\symantec\dbshare\server\MsgConfig.class
+com\symantec\dbshare\server\Receiver.class
+com\symantec\dbshare\server\WebConfig.class
+com\symantec\dbshare\server\DBShareController.class
+com\symantec\dbshare\server\DBShareService.class
+com\symantec\dbshare\server\Application.class
+com\symantec\dbshare\server\WebInitializer.class
+com\symantec\dbshare\server\DBShareRepository.class

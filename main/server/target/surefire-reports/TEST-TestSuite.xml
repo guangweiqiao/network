@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="1.845" tests="25" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_40\jre\bin"/>
+    <property name="java.vm.version" value="25.40-b16"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\applianceworkspace\appliance\dbshares\main"/>
+    <property name="java.runtime.version" value="1.8.0_40-ea-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\1\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows Server 2008 R2"/>
+    <property name="classworlds.conf" value="D:\sts_workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf328881115179230374.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_40\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_40/bin/server;C:/Program Files/Java/jre1.8.0_40/bin;C:/Program Files/Java/jre1.8.0_40/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;D:\Perl64\site\bin;D:\Perl64\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Perforce;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Collaborator Client;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Java\jdk1.8.0_40\bin;C:\Program Files\Java\jdk1.8.0_40lib;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\spring\bin;D:\Download\apache-maven-3.2.3\bin;C:\mongodb\bin;C:\Program Files\erl6.2\bin;C:\Program Files (x86)\RabbitMQ Server\rabbitmq_server-3.4.2\sbin;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;D:\software\sts\sts-bundle\sts-3.5.0.RELEASE;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="/D:/software/sts/sts-bundle/sts-3.5.0.RELEASE/configuration/org.eclipse.osgi/bundles/583/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_40\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_40-ea"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\applianceworkspace\appliance\dbshares\main\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="/D:/software/sts/sts-bundle/sts-3.5.0.RELEASE/configuration/org.eclipse.osgi/bundles/583/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testCreateDBShare" classname="com.symantec.dbshare.server.DBShareControllerTest" time="0.123"/>
+  <testcase name="testGetDBShare" classname="com.symantec.dbshare.server.DBShareControllerTest" time="0.056"/>
+  <testcase name="testGetDBShareStatus" classname="com.symantec.dbshare.server.DBShareControllerTest" time="0.003"/>
+  <testcase name="testSearchDBShares" classname="com.symantec.dbshare.server.DBShareControllerTest" time="0.002"/>
+  <testcase name="testValidationError_EmptyObject" classname="com.symantec.dbshare.server.DBShareControllerTest" time="0.057"/>
+  <testcase name="testCreateDBShare_EmptyId" classname="com.symantec.dbshare.server.DBShareServiceTest" time="0.455"/>
+  <testcase name="testCreateDBShare_EnterNull" classname="com.symantec.dbshare.server.DBShareServiceTest" time="0.001"/>
+  <testcase name="testCreateDBShare_ExpectedSuccess" classname="com.symantec.dbshare.server.DBShareServiceTest" time="0.088"/>
+  <testcase name="testCreateDBShare_NullId" classname="com.symantec.dbshare.server.DBShareServiceTest" time="0.01"/>
+  <testcase name="testGetDBShareStatus_ExpectedNull" classname="com.symantec.dbshare.server.DBShareServiceTest" time="0.043"/>
+  <testcase name="testGetDBShare_NoException" classname="com.symantec.dbshare.server.DBShareServiceTest" time="0.006"/>
+  <testcase name="testGetDBShare_Success" classname="com.symantec.dbshare.server.DBShareServiceTest" time="0.033"/>
+  <testcase name="testLoadDBShare_NoFile" classname="com.symantec.dbshare.server.DBShareServiceTest" time="0.003"/>
+  <testcase name="testLoadDBShare_WithEmptyFile" classname="com.symantec.dbshare.server.DBShareServiceTest" time="0.002"/>
+  <testcase name="testLoadDBShare_WithFile" classname="com.symantec.dbshare.server.DBShareServiceTest" time="0.023"/>
+  <testcase name="testRunStorageWorker" classname="com.symantec.dbshare.server.DBShareServiceTest" time="0.003"/>
+  <testcase name="testSaveDBShareStatus_getDBShareStatus_ExpectedSuccess" classname="com.symantec.dbshare.server.DBShareServiceTest" time="0.061"/>
+  <testcase name="testSearchDBShares_ExpectedSuccess" classname="com.symantec.dbshare.server.DBShareServiceTest" time="0.066"/>
+  <testcase name="testCreateEmptyDBShare" classname="com.symantec.dbshare.server.MockMvcTest" time="0.322"/>
+  <testcase name="testDBSharesHome" classname="com.symantec.dbshare.server.MockMvcTest" time="0.024"/>
+  <testcase name="testUnexpcetedException" classname="com.symantec.dbshare.server.MockMvcTest" time="0.242"/>
+  <testcase name="testOnMessage_NullDBShare" classname="com.symantec.dbshare.server.ReceiverTest" time="0.117"/>
+  <testcase name="testOnMessage_NullMessage" classname="com.symantec.dbshare.server.ReceiverTest" time="0.003"/>
+  <testcase name="testOnMessage_ValidMessage" classname="com.symantec.dbshare.server.ReceiverTest" time="0.101"/>
+  <testcase name="testOnMessage_throwException" classname="com.symantec.dbshare.server.ReceiverTest" time="0.001"/>
+</testsuite>

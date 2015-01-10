@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main" if="prodProfile">
+  <copy file="target/server-0.1.0.war" tofile="${buildDist}/server-0.1.0-dev.war" overwrite="true"/>
+</target>
+</project>

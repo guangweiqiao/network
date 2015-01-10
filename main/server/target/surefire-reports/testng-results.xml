@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="25" passed="25">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="18458" started-at="2015-01-06T00:07:00Z" finished-at="2015-01-06T00:07:19Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="18458" started-at="2015-01-06T00:07:00Z" finished-at="2015-01-06T00:07:19Z">
+      <class name="com.symantec.dbshare.server.ReceiverTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="8" started-at="2015-01-05T16:07:19Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-01-05T16:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="55" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.ReceiverTest.testOnMessage_NullDBShare() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testOnMessage_NullDBShare()[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="testOnMessage_NullDBShare" duration-ms="62" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnMessage_NullDBShare -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.ReceiverTest.testOnMessage_NullDBShare() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testOnMessage_NullMessage()[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="testOnMessage_NullMessage" duration-ms="4" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnMessage_NullMessage -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.ReceiverTest.testOnMessage_NullMessage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.ReceiverTest.testOnMessage_ValidMessage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.ReceiverTest.testOnMessage_NullMessage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testOnMessage_ValidMessage()[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="testOnMessage_ValidMessage" duration-ms="56" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnMessage_ValidMessage -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.ReceiverTest.testOnMessage_ValidMessage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testOnMessage_throwException()[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="testOnMessage_throwException" duration-ms="2" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.springframework.amqp.support.converter.Jackson2JsonMessageConverter.createMessage(Jackson2JsonMessageConverter.java:153)
+	at org.springframework.amqp.support.converter.AbstractMessageConverter.toMessage(AbstractMessageConverter.java:51)
+	at com.symantec.dbshare.server.ReceiverTest.testOnMessage_throwException(ReceiverTest.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:204)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:107)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:112)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOnMessage_throwException -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.ReceiverTest.testOnMessage_throwException() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.ReceiverTest.testOnMessage_throwException() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.symantec.dbshare.server.ReceiverTest@64c87930]" name="springTestContextAfterTestClass" is-config="true" duration-ms="40" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.symantec.dbshare.server.ReceiverTest -->
+      <class name="com.symantec.dbshare.server.DBShareServiceTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5" started-at="2015-01-05T16:07:17Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-01-05T16:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="testCreateDBShare_EmptyId()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="testCreateDBShare_EmptyId" duration-ms="454" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateDBShare_EmptyId -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testCreateDBShare_EmptyId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testCreateDBShare_EmptyId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testCreateDBShare_EnterNull()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="testCreateDBShare_EnterNull" duration-ms="1" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateDBShare_EnterNull -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testCreateDBShare_EnterNull() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testCreateDBShare_EnterNull() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testCreateDBShare_ExpectedSuccess()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="testCreateDBShare_ExpectedSuccess" duration-ms="87" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateDBShare_ExpectedSuccess -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testCreateDBShare_ExpectedSuccess() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testCreateDBShare_ExpectedSuccess() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testCreateDBShare_NullId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testCreateDBShare_NullId()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="testCreateDBShare_NullId" duration-ms="9" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateDBShare_NullId -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testCreateDBShare_NullId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testGetDBShareStatus_ExpectedNull() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testGetDBShareStatus_ExpectedNull()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="testGetDBShareStatus_ExpectedNull" duration-ms="42" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDBShareStatus_ExpectedNull -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testGetDBShareStatus_ExpectedNull() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testGetDBShare_NoException() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testGetDBShare_NoException()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="testGetDBShare_NoException" duration-ms="6" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDBShare_NoException -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testGetDBShare_NoException() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testGetDBShare_Success() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testGetDBShare_Success()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="testGetDBShare_Success" duration-ms="34" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDBShare_Success -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testLoadDBShare_NoFile() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testGetDBShare_Success() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testLoadDBShare_NoFile()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="testLoadDBShare_NoFile" duration-ms="2" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[file_does_not_exists-822918722.txt (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: file_does_not_exists-822918722.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.symantec.dbshare.server.DBShareService.loadDBShares(DBShareService.java:46)
+	at com.symantec.dbshare.server.DBShareService$$FastClassBySpringCGLIB$$dde734ef.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:708)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:98)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:262)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:644)
+	at com.symantec.dbshare.server.DBShareService$$EnhancerBySpringCGLIB$$ad8bde63.loadDBShares(<generated>)
+	at com.symantec.dbshare.server.DBShareServiceTest.testLoadDBShare_NoFile(DBShareServiceTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:204)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:107)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:112)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadDBShare_NoFile -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testLoadDBShare_WithEmptyFile() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testLoadDBShare_NoFile() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testLoadDBShare_WithEmptyFile()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="testLoadDBShare_WithEmptyFile" duration-ms="2" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadDBShare_WithEmptyFile -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testLoadDBShare_WithEmptyFile() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testLoadDBShare_WithFile()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="testLoadDBShare_WithFile" duration-ms="22" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadDBShare_WithFile -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testLoadDBShare_WithFile() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testRunStorageWorker() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testLoadDBShare_WithFile() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testRunStorageWorker()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="testRunStorageWorker" duration-ms="3" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRunStorageWorker -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testRunStorageWorker() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testSaveDBShareStatus_getDBShareStatus_ExpectedSuccess()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="testSaveDBShareStatus_getDBShareStatus_ExpectedSuccess" duration-ms="61" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveDBShareStatus_getDBShareStatus_ExpectedSuccess -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testSaveDBShareStatus_getDBShareStatus_ExpectedSuccess() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testSaveDBShareStatus_getDBShareStatus_ExpectedSuccess() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testSearchDBShares_ExpectedSuccess()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="testSearchDBShares_ExpectedSuccess" duration-ms="66" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchDBShares_ExpectedSuccess -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testSearchDBShares_ExpectedSuccess() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="destroy" is-config="true" duration-ms="5" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareServiceTest.testSearchDBShares_ExpectedSuccess() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.symantec.dbshare.server.DBShareServiceTest -->
+      <class name="com.symantec.dbshare.server.MockMvcTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.symantec.dbshare.server.MockMvcTest@7f9fcf7f]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.symantec.dbshare.server.MockMvcTest@7f9fcf7f]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="9" started-at="2015-01-05T16:07:18Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.symantec.dbshare.server.MockMvcTest@7f9fcf7f]" name="setUp" is-config="true" duration-ms="59" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCreateEmptyDBShare()[pri:0, instance:com.symantec.dbshare.server.MockMvcTest@7f9fcf7f]" name="testCreateEmptyDBShare" duration-ms="322" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateEmptyDBShare -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.MockMvcTest@7f9fcf7f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.MockMvcTest.testCreateEmptyDBShare() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.MockMvcTest@7f9fcf7f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.MockMvcTest.testDBSharesHome() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testDBSharesHome()[pri:0, instance:com.symantec.dbshare.server.MockMvcTest@7f9fcf7f]" name="testDBSharesHome" duration-ms="24" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDBSharesHome -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.MockMvcTest@7f9fcf7f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.MockMvcTest.testCreateEmptyDBShare() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.MockMvcTest@7f9fcf7f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.MockMvcTest.testUnexpcetedException() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.MockMvcTest@7f9fcf7f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.MockMvcTest.testDBSharesHome() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testUnexpcetedException()[pri:0, instance:com.symantec.dbshare.server.MockMvcTest@7f9fcf7f]" name="testUnexpcetedException" duration-ms="167" started-at="2015-01-05T16:07:18Z" finished-at="2015-01-05T16:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnexpcetedException -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.MockMvcTest@7f9fcf7f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.MockMvcTest.testUnexpcetedException() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.symantec.dbshare.server.MockMvcTest@7f9fcf7f]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:19Z" finished-at="2015-01-05T16:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.symantec.dbshare.server.MockMvcTest -->
+      <class name="com.symantec.dbshare.server.DBShareControllerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="setUp" is-config="true" duration-ms="101" started-at="2015-01-05T16:07:00Z" finished-at="2015-01-05T16:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.symantec.dbshare.server.DBShareServiceTest@52aa2946]" name="setUp" is-config="true" duration-ms="75" started-at="2015-01-05T16:07:00Z" finished-at="2015-01-05T16:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:01Z" finished-at="2015-01-05T16:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="16095" started-at="2015-01-05T16:07:01Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-01-05T16:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="82" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareControllerTest.testCreateDBShare() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testCreateDBShare()[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="testCreateDBShare" duration-ms="94" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateDBShare -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareControllerTest.testCreateDBShare() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareControllerTest.testGetDBShare() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testGetDBShare()[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="testGetDBShare" duration-ms="30" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDBShare -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareControllerTest.testGetDBShare() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareControllerTest.testGetDBShareStatus() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testGetDBShareStatus()[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="testGetDBShareStatus" duration-ms="3" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDBShareStatus -->
+        <test-method status="PASS" signature="testSearchDBShares()[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="testSearchDBShares" duration-ms="3" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchDBShares -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareControllerTest.testSearchDBShares() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareControllerTest.testGetDBShareStatus() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareControllerTest.testSearchDBShares() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testValidationError_EmptyObject()[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="testValidationError_EmptyObject" duration-ms="33" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Missing invocation to mocked type at this point; please make sure such invocations appear only after the declaration of a suitable mock field or parameter]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Missing invocation to mocked type at this point; please make sure such invocations appear only after the declaration of a suitable mock field or parameter
+	at com.symantec.dbshare.server.DBShareControllerTest$10.<init>(DBShareControllerTest.java:165)
+	at com.symantec.dbshare.server.DBShareControllerTest.testValidationError_EmptyObject(DBShareControllerTest.java:162)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:204)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:107)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:112)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidationError_EmptyObject -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareControllerTest.testValidationError_EmptyObject() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="destroy" is-config="true" duration-ms="24" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.symantec.dbshare.server.DBShareControllerTest.testValidationError_EmptyObject() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.symantec.dbshare.server.DBShareControllerTest@67e2d983]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2015-01-05T16:07:17Z" finished-at="2015-01-05T16:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.symantec.dbshare.server.DBShareControllerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,146 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.symantec.networks</groupId>
+    <artifactId>networks</artifactId>
+    <version>0.1.0</version>
+    <packaging>pom</packaging>
+    <name>networks</name>
+    <description>network parent project</description>
+
+    <modules>
+        <module>server</module>
+        <module>model</module>
+        <module>network</module>
+        <module>client</module>
+    </modules>
+
+    <properties>
+        <buildVersion>dev</buildVersion>
+        <buildTag>${project.version}-${buildVersion}</buildTag>
+        <buildFinalName>${project.name}-${project.version}-${buildVersion}</buildFinalName>
+    </properties>
+
+    <parent>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <groupId>org.springframework.boot</groupId>
+        <version>1.1.8.RELEASE</version>
+    </parent>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>6.8.8</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jmockit</groupId>
+                <artifactId>jmockit</artifactId>
+                <version>1.13</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.11</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>1.1.8.RELEASE</version>
+                <scope>test</scope>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>  
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>2.5.1</version>
+                    <configuration>
+                        <source>1.8</source>
+                        <target>1.8</target>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>2.17</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-antrun-plugin</artifactId>
+                    <version>1.8</version>
+                </plugin>
+                <!-- Disable instrumentation of lambda functions declared as expressions
+                     to avoid compile error with code instrumented by clover -->
+                <plugin>
+                    <groupId>com.atlassian.maven.plugins</groupId>
+                    <artifactId>maven-clover2-plugin</artifactId>
+                    <version>4.0.2</version>
+                    <configuration>
+                        <instrumentLambda>block</instrumentLambda>
+                        <license><![CDATA[
+MMNNShSgeIJlaFwXuWRKlhpWPPpEjBeDELAmPvSBpKDHCE
+mi2KEafqrbunh24jFj<35JCw2Ku4GMRJg9iS1klsklYBfO
+nRqRsUOnmnmqMMNpQOPuSrNMnqpqMPrprMVTwuuswxttpW
+USttTsXststSrQOOpnmnmUUnqnvnssummmmmUUnqnvnssu
+mmmmmUUJvjXkqbZW3lomloXqflkUUnmmmm
+                        ]]></license>
+                    </configuration>
+                </plugin>
+
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>thirdparty</id>
+            <name>thirdparty</name>
+            <url>http://artifactory-appliance.engba.symantec.com/artifactory/thirdparty</url>
+        </repository>
+    </repositories>
+
+    <profiles>
+        <profile>
+            <id>prod</id>
+            <activation>
+                <property>
+                    <name>env.JENKINS_URL</name>
+                </property>
+            </activation>
+            <properties>
+                <prodProfile>true</prodProfile>
+                <buildVersion>${env.BUILD_VERSION}</buildVersion>
+                <buildTag>${env.BUILDTAG}</buildTag>
+                <buildDist>../${env.PRODUCT}/${env.BRANCH}/${buildTag}</buildDist>
+                <buildFinalName>${env.PRODUCT}-${buildTag}-${project.name}</buildFinalName>
+            </properties>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-clean-plugin</artifactId>
+                        <version>2.6</version>
+                        <configuration>
+                            <filesets>
+                                <fileset>
+                                    <directory>${basedir}/../${env.PRODUCT}</directory>
+                                </fileset>
+                            </filesets>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+</project>

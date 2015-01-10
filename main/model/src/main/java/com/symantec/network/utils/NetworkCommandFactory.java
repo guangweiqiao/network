@@ -1,0 +1,48 @@
+package com.symantec.network.utils;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Optional;
+import java.util.Set;
+
+public class NetworkCommandFactory {
+
+	
+	public static String[] createCommand(Optional<String> command, Map<String, String> optionMap){
+		
+		if(!command.isPresent()){
+			return null;
+		}
+		
+		List<String> commandList = new ArrayList<String>();
+		commandList.add(command.get());
+		
+		if(null != optionMap && optionMap.size() !=0){
+			Set<Entry<String, String>> entrySet = optionMap.entrySet();
+			for(Entry<String,String> entry : entrySet){
+				if(null != entry.getValue()){
+					commandList.add(entry.getKey());
+					commandList.add(entry.getValue());
+				}
+			}
+		}
+		
+		return commandList.toArray(new String[commandList.size()]);
+	}
+	
+	public static void main(String[] args) {
+		Map<String,String> optionMap = new LinkedHashMap<String, String>();
+		optionMap.put("eth1", "10.200.100.1");
+		optionMap.put("netmask", "255.255.255.0");
+		optionMap.put("broadcast", null);
+		String[] command = NetworkCommandFactory.createCommand(Optional.ofNullable("/sbin/ifconfig"), optionMap);
+		
+		for(String s : command){
+			System.out.print(s + " ");
+		}
+	}
+
+}

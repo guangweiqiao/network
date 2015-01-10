@@ -1,0 +1,293 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>25/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 05 16:07:00 PST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>18 seconds (18458 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareControllerTest.testCreateDBShare()'><b>testCreateDBShare</b><br>Test class: com.symantec.dbshare.server.DBShareControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareControllerTest@67e2d983</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareServiceTest.testCreateDBShare_EmptyId()'><b>testCreateDBShare_EmptyId</b><br>Test class: com.symantec.dbshare.server.DBShareServiceTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareServiceTest@52aa2946</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareServiceTest.testCreateDBShare_EnterNull()'><b>testCreateDBShare_EnterNull</b><br>Test class: com.symantec.dbshare.server.DBShareServiceTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareServiceTest@52aa2946</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareServiceTest.testCreateDBShare_ExpectedSuccess()'><b>testCreateDBShare_ExpectedSuccess</b><br>Test class: com.symantec.dbshare.server.DBShareServiceTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareServiceTest@52aa2946</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareServiceTest.testCreateDBShare_NullId()'><b>testCreateDBShare_NullId</b><br>Test class: com.symantec.dbshare.server.DBShareServiceTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareServiceTest@52aa2946</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.MockMvcTest.testCreateEmptyDBShare()'><b>testCreateEmptyDBShare</b><br>Test class: com.symantec.dbshare.server.MockMvcTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.MockMvcTest@7f9fcf7f</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.MockMvcTest.testDBSharesHome()'><b>testDBSharesHome</b><br>Test class: com.symantec.dbshare.server.MockMvcTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.MockMvcTest@7f9fcf7f</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareControllerTest.testGetDBShare()'><b>testGetDBShare</b><br>Test class: com.symantec.dbshare.server.DBShareControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareControllerTest@67e2d983</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareControllerTest.testGetDBShareStatus()'><b>testGetDBShareStatus</b><br>Test class: com.symantec.dbshare.server.DBShareControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareControllerTest@67e2d983</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareServiceTest.testGetDBShareStatus_ExpectedNull()'><b>testGetDBShareStatus_ExpectedNull</b><br>Test class: com.symantec.dbshare.server.DBShareServiceTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareServiceTest@52aa2946</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareServiceTest.testGetDBShare_NoException()'><b>testGetDBShare_NoException</b><br>Test class: com.symantec.dbshare.server.DBShareServiceTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareServiceTest@52aa2946</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareServiceTest.testGetDBShare_Success()'><b>testGetDBShare_Success</b><br>Test class: com.symantec.dbshare.server.DBShareServiceTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareServiceTest@52aa2946</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareServiceTest.testLoadDBShare_NoFile()'><b>testLoadDBShare_NoFile</b><br>Test class: com.symantec.dbshare.server.DBShareServiceTest</td>
+<td><div><pre>java.io.FileNotFoundException: file_does_not_exists-822918722.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
+	at com.symantec.dbshare.server.DBShareService.loadDBShares(DBShareService.java:46)
+	at com.symantec.dbshare.server.DBShareService$$FastClassBySpringCGLIB$$dde734ef.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:708)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:98)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:262)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:644)
+	at com.symantec.dbshare.server.DBShareService$$EnhancerBySpringCGLIB$$ad8bde63.loadDBShares(&lt;generated&gt;)
+	at com.symantec.dbshare.server.DBShareServiceTest.testLoadDBShare_NoFile(DBShareServiceTest.java:81)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace173965920", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace173965920'><pre>java.io.FileNotFoundException: file_does_not_exists-822918722.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
+	at com.symantec.dbshare.server.DBShareService.loadDBShares(DBShareService.java:46)
+	at com.symantec.dbshare.server.DBShareService$$FastClassBySpringCGLIB$$dde734ef.invoke(&lt;generated&gt;)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:708)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:98)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:262)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:644)
+	at com.symantec.dbshare.server.DBShareService$$EnhancerBySpringCGLIB$$ad8bde63.loadDBShares(&lt;generated&gt;)
+	at com.symantec.dbshare.server.DBShareServiceTest.testLoadDBShare_NoFile(DBShareServiceTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:204)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:107)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:112)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareServiceTest@52aa2946</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareServiceTest.testLoadDBShare_WithEmptyFile()'><b>testLoadDBShare_WithEmptyFile</b><br>Test class: com.symantec.dbshare.server.DBShareServiceTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareServiceTest@52aa2946</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareServiceTest.testLoadDBShare_WithFile()'><b>testLoadDBShare_WithFile</b><br>Test class: com.symantec.dbshare.server.DBShareServiceTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareServiceTest@52aa2946</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.ReceiverTest.testOnMessage_NullDBShare()'><b>testOnMessage_NullDBShare</b><br>Test class: com.symantec.dbshare.server.ReceiverTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.ReceiverTest@64c87930</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.ReceiverTest.testOnMessage_NullMessage()'><b>testOnMessage_NullMessage</b><br>Test class: com.symantec.dbshare.server.ReceiverTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.ReceiverTest@64c87930</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.ReceiverTest.testOnMessage_ValidMessage()'><b>testOnMessage_ValidMessage</b><br>Test class: com.symantec.dbshare.server.ReceiverTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.ReceiverTest@64c87930</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.ReceiverTest.testOnMessage_throwException()'><b>testOnMessage_throwException</b><br>Test class: com.symantec.dbshare.server.ReceiverTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.springframework.amqp.support.converter.Jackson2JsonMessageConverter.createMessage(Jackson2JsonMessageConverter.java:153)
+	at org.springframework.amqp.support.converter.AbstractMessageConverter.toMessage(AbstractMessageConverter.java:51)
+	at com.symantec.dbshare.server.ReceiverTest.testOnMessage_throwException(ReceiverTest.java:99)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace569974522", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace569974522'><pre>java.lang.NullPointerException
+	at org.springframework.amqp.support.converter.Jackson2JsonMessageConverter.createMessage(Jackson2JsonMessageConverter.java:153)
+	at org.springframework.amqp.support.converter.AbstractMessageConverter.toMessage(AbstractMessageConverter.java:51)
+	at com.symantec.dbshare.server.ReceiverTest.testOnMessage_throwException(ReceiverTest.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:204)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:107)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:112)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.ReceiverTest@64c87930</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareServiceTest.testRunStorageWorker()'><b>testRunStorageWorker</b><br>Test class: com.symantec.dbshare.server.DBShareServiceTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareServiceTest@52aa2946</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareServiceTest.testSaveDBShareStatus_getDBShareStatus_ExpectedSuccess()'><b>testSaveDBShareStatus_getDBShareStatus_ExpectedSuccess</b><br>Test class: com.symantec.dbshare.server.DBShareServiceTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareServiceTest@52aa2946</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareControllerTest.testSearchDBShares()'><b>testSearchDBShares</b><br>Test class: com.symantec.dbshare.server.DBShareControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareControllerTest@67e2d983</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareServiceTest.testSearchDBShares_ExpectedSuccess()'><b>testSearchDBShares_ExpectedSuccess</b><br>Test class: com.symantec.dbshare.server.DBShareServiceTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareServiceTest@52aa2946</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.MockMvcTest.testUnexpcetedException()'><b>testUnexpcetedException</b><br>Test class: com.symantec.dbshare.server.MockMvcTest</td>
+<td></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.MockMvcTest@7f9fcf7f</td></tr>
+<tr>
+<td title='com.symantec.dbshare.server.DBShareControllerTest.testValidationError_EmptyObject()'><b>testValidationError_EmptyObject</b><br>Test class: com.symantec.dbshare.server.DBShareControllerTest</td>
+<td><div><pre>java.lang.IllegalStateException: Missing invocation to mocked type at this point; please make sure such invocations appear only after the declaration of a suitable mock field or parameter
+	at com.symantec.dbshare.server.DBShareControllerTest$10.&lt;init&gt;(DBShareControllerTest.java:165)
+	at com.symantec.dbshare.server.DBShareControllerTest.testValidationError_EmptyObject(DBShareControllerTest.java:162)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1657624109", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1657624109'><pre>java.lang.IllegalStateException: Missing invocation to mocked type at this point; please make sure such invocations appear only after the declaration of a suitable mock field or parameter
+	at com.symantec.dbshare.server.DBShareControllerTest$10.&lt;init&gt;(DBShareControllerTest.java:165)
+	at com.symantec.dbshare.server.DBShareControllerTest.testValidationError_EmptyObject(DBShareControllerTest.java:162)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:204)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:107)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:112)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>com.symantec.dbshare.server.DBShareControllerTest@67e2d983</td></tr>
+</table><p>
+</body>
+</html>
