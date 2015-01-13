@@ -11,6 +11,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+import com.symantec.network.message.NetworkTask;
+import com.symantec.network.model.NetworkConfigConstants;
+import com.symantec.network.model.PhysicalInterfaceInfo;
+
 @Configuration
 @ComponentScan
 @EnableAutoConfiguration
@@ -34,5 +38,8 @@ public class Application implements CommandLineRunner{
 	@Override
 	public void run(String... arg0) throws Exception {
 		System.out.println("###########################");
+		
+		PhysicalInterfaceInfo ifInfo = new PhysicalInterfaceInfo("eth1", "10.200.100.10");
+		rabbitTemplate.convertAndSend(NetworkTask.QUEUE, new NetworkTask(NetworkConfigConstants.ACTION_CONFIGURE_IP, ifInfo));
 	}
 }
