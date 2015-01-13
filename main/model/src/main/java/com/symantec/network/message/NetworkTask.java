@@ -2,32 +2,29 @@ package com.symantec.network.message;
 
 import java.io.Serializable;
 
-import com.symantec.network.model.InterfaceInfo;
+import com.symantec.network.model.PhysicalInterfaceInfo;
 
-public class NetworkTask implements Serializable {
+public class NetworkTask extends Task implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
 	public static final String QUEUE = "NETWORK.INTERFACE.TASK";
 	
-	private String action;
-	private InterfaceInfo ifInfo;
+	private PhysicalInterfaceInfo ifInfo;
 	
-	public NetworkTask(String action, InterfaceInfo ifInfo){
-		this.action = action;
+	public NetworkTask(){
+		super();
+	};
+	
+	public NetworkTask(String action, PhysicalInterfaceInfo ifInfo){
+		super(action);
 		this.ifInfo = ifInfo;
 	}
 	
-	public String getAction() {
-		return action;
-	}
-	public void setAction(String action) {
-		this.action = action;
-	}
-	public InterfaceInfo getIfInfo() {
+	public PhysicalInterfaceInfo getIfInfo() {
 		return ifInfo;
 	}
-	public void setIfInfo(InterfaceInfo ifInfo) {
+	public void setIfInfo(PhysicalInterfaceInfo ifInfo) {
 		this.ifInfo = ifInfo;
 	}
 }
